@@ -9,7 +9,7 @@ import asyncio
 
 logging.basicConfig(level=logging.INFO)# настройка logov
 
-api = '7707234672:AAF-oM2PH-ddxA2_kHagE_X3MucBrGCb8CE'
+api = ''
 bot = Bot(token = api)
 dp = Dispatcher(bot, storage = MemoryStorage())
 
